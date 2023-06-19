@@ -6,6 +6,16 @@
     transition: all .50s ease;
     max-width: 100%;
 }
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.flex{
+    display: flex;
+}
 header{
     background-image: url(img/bg.jpeg);
     background-size: cover;
@@ -169,10 +179,16 @@ header{
     box-shadow: 5px 5px 25px #dadada82;
     border: 1px solid #dedede;
     background-color: #ffc3c3;
-    padding: 3rem 5rem;
-    width: fit-content;
+    padding: 2rem 5rem;
+    max-width: 600px;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
+    border-radius: 10px;
+    margin-top: 10rem;
+    position: absolute;
+    z-index: 1;
+
 }
 .sec4 h2{
     font-size: 30px;
@@ -189,6 +205,56 @@ header{
     border-radius: 50px;
     text-decoration: none;
 }
+
+
+
+
+
+/* Footer */
+.footer2{
+    background-color: #05242f;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    gap: 7rem;
+    padding-top: 10rem;
+    position: relative;
+    z-index: 0;
+    flex-wrap: wrap;
+}
+.p2{
+    font-weight: 300;
+}
+.footer-logo{
+    width: 200px;
+    margin-bottom: 2rem;
+}
+.social-media{
+    width: 20px;
+}
+.social{
+    gap: 1rem;
+}
+.p{
+    margin-top: 1rem;
+}
+.footer a{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 3rem;
+}
+.p3{
+    float: right;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -217,12 +283,10 @@ header{
 
 
 @media (max-width:768px) and (min-width:320px) {
-    body{
-        text-align: center;
-    }
     .banner{
         padding: 5rem 1rem;
         display: block;
+        text-align: center;
     }
     .banner-img img{
         width: 600px;
@@ -238,14 +302,20 @@ header{
     .sec1{
         margin-top: 25rem;
         gap: 2rem;
+        text-align: center;
     }
     .sec2{
         gap: 2rem;
+        text-align: center;
     }
     .sec3{
         gap: 2rem;
+        text-align: center;
     }
-}
+    .footer{
+        display: block;
+    }
+}   
 
 
 
