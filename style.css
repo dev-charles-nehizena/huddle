@@ -164,17 +164,15 @@ header{
 
 
 /* sec4 */
-.sec4-cont{
-    display: flex;
-    justify-content: center;
-    display: inline-block;
-}
 .sec4{
     text-align: center;
     box-shadow: 5px 5px 25px #dadada82;
     border: 1px solid #dedede;
-    background-color: #fff;
+    background-color: #ffc3c3;
     padding: 3rem 5rem;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
 }
 .sec4 h2{
     font-size: 30px;
